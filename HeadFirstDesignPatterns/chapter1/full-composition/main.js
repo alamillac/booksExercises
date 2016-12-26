@@ -2,9 +2,9 @@ var MallardDuck = require('./mallardDuck'),
     ModelDuck = require('./modelDuck'),
     duckBehaviors = require('./duckBehaviors');
 
-mallard = new MallardDuck('mallard');
-model = new ModelDuck('model1');
-model2 = new ModelDuck('model2');
+mallard = MallardDuck('mallard');
+model = ModelDuck('model1');
+model2 = ModelDuck('model2');
 model.display();
 model.swim();
 model.fly();
